@@ -1,0 +1,693 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	background: #fff;
+}
+A {
+	text-decoration: none;
+}
+p{
+	font-size: 14px;
+	font-family: arial;
+	line-height: 20px;
+}
+h3{
+	color: #CCC;
+	border-radius: 10px 10px 0 0;
+	font-family: verdana;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 50px;
+	height: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	vertical-align: middle;
+	width: 100%;
+}
+h4{
+	font-size: 16px;
+	font-family: verdana;
+	font-weight: bold;
+}
+header{
+	height: 65px;
+	width: 100%;
+	background: url('../imagenes/Logo2.png') no-repeat;
+}
+header h1{
+	color: rgba(119, 126, 122, 0.863);
+	font-family: verdana;
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 3px;
+	padding-top: 40px;
+	padding-left: 30px;
+	
+	vertical-align: text-bottom;	
+}
+
+
+nav{
+	margin-top: 1px;
+	border-radius:10px;
+	background: #001A33;
+	height: 50px;
+	margin: auto;
+	margin-bottom: 5px;
+	width: 960px;
+}
+nav ul{
+	text-align: center;
+	list-style: none;
+	width: 100%;
+}
+nav ul li{
+	color: #FFF;
+	font-size: 20px;
+	font-family: arial;
+	font-weight: bold;
+	display: inline-block;
+	line-height: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	vertical-align: middle;
+	text-transform: uppercase;
+}
+nav ul li:hover{
+	color: #21EDC7;
+}
+#slider{
+	border-radius: 10px;
+	margin: auto;
+	margin-bottom: 5px;
+	width: 960px;
+}
+#slider img{
+	height: 350px;
+}
+#continicio{
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+}
+#continicio h2{
+	font-size: 40px;
+	font-family: verdana;
+	font-weight: bold;
+}
+
+#slider figure img{
+	display: block;
+	border-radius: 10px;
+	box-shadow: 1px 1px 10px #000;
+	opacity: .9;
+	width: 100%;
+}
+.contenido{
+	border-radius: 10px;
+	margin-top: 3px;
+	margin: auto;
+	margin-bottom: 5px;
+	width: 960px;
+}
+.articulos{
+	padding: 10px;
+}
+.articulos img{
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+.serv1{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 25px;
+	display: inline-block;
+	width: 280px;
+}
+
+.serv1 img{
+	border-radius: 10px;
+	border:1px solid #000;
+	margin-top: 10px;
+	height: 150px;
+	width: 100%;
+}
+
+footer{
+	border-radius: 10px;
+	height: 75px;
+	margin: auto;
+	margin-bottom: 5px;
+	width: 100%;
+	text-align: left;
+	position: absolute;
+  	bottom: 0;
+
+}
+footer p{
+	color: rgb(126, 125, 125);
+	font-family: verdana;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 75px;
+	padding-left: 5px;
+	vertical-align: middle;
+}
+
+
+/***********************/
+.form_register{
+     width: 450px;
+	 padding: 20px;
+       margin: auto; 
+}
+
+.form_register h1{
+    color: #3c93b0;
+}
+
+hr{
+    border:0;
+    background: #CCC;
+    height: 1px;
+    margin: 10px 0;
+    display: block;
+}
+form{
+    background: #FFF;
+    margin: auto;
+    padding: 20px 30px;
+    border: 1px solid #d1d1d1;
+}
+label{
+    display: block;
+    font-size: 12pt;
+    margin: 15px auto 5px auto;
+}
+input,select{
+    display: block;
+    width: 100%;   
+    font-size: 11pt;
+    padding: 5px;
+    border: 1px solid #85929e;
+    border-radius: 5px;
+    
+}
+
+.notItemOne option:first-child{
+	display: none;
+}
+
+.btn_save{
+    font-size: 14pt;
+    background: #21ac21;
+    padding: 10px;
+    color: rgb(245, 240, 240);
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+    margin: 15px auto;
+    cursor: pointer;
+    margin: 15 px auto;
+}
+
+.btn_cancelado{
+    font-size: 14pt;
+    background: #12a4c6;
+    padding: 10px;
+    color: rgb(245, 240, 240);
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+    margin: 15px auto;
+    cursor: pointer;
+    margin: 15 px auto;
+}
+
+.btn_imp{
+    font-size: 14pt;
+    background: #ee3406;
+    padding: 10px;
+    color: rgb(245, 240, 240);
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+    margin: 15px auto;
+    cursor: pointer;
+    margin: 15 px auto;
+}
+
+.btn_imp2{
+    font-size: 14pt;
+    background: #239baa;
+    padding: 10px;
+    color: rgb(245, 240, 240);
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+    margin: 15px auto;
+    cursor: pointer;
+    margin: 15 px auto;
+}
+
+
+.alert{
+    width: 100%;
+    background: #66e07d66;
+    border-radius: 6px;
+    margin: 20px auto;
+}
+.msg_error{
+    color: #e65656;
+}
+.msg_save{
+    color: #126e00;
+}
+.alert p{
+    padding: 10px;
+}
+
+
+/*------------------LISTA USUARIO----------------------*/
+
+#container h1{
+	font-size: 35px;
+	display: inline-block;
+}
+
+.btn_new{
+	display: inline-block;
+	background: #239baa;
+	color: #FFF;
+	padding: 5px 25px;
+	border-radius: 4px;
+	margin: 20px;
+}
+
+.btn_news{
+	display: inline-block;
+	background: #21ac21;
+	font-size: large;
+	color: #FFF;
+	padding: 5px 25px;
+	border-radius: 4px;
+	margin: 20px;
+}
+
+
+
+table{
+	align: center;
+	border-collapse: collapse;
+	font-size: 10pt;
+	font-family: 'arial';
+	width: 100%;
+}
+
+table th{
+	text-align: left;
+	padding: 10px;
+	background: #3d7ba8;
+	color: rgb(250, 245, 245);
+}
+
+table tr:nth-child(odd){
+	background: #dcdcdc;
+}
+
+table td{
+	padding: 5px;
+}
+
+.link_edit{
+	color: #0ca4ce;
+}
+
+.link_delete{
+	color: #f26b6b;
+}
+
+.data_delete {
+	padding-top: 20px;
+	text-align: center;
+}
+
+.data_delete h2{
+	font-size: 12pt;
+}
+
+.data_delete span{
+	font-weight: bold;
+	color: #4f72d4;
+	font-size: 12pt;
+}
+
+.btn_cancel, .btn_ok{
+	width: 124pt;
+	background: #21ac21;
+	color: #FFF;
+	display: inline-block;
+	padding: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 15px;
+	text-align: center;
+	
+}
+
+.btn_ok{
+	background: #ee0707;
+}
+
+.data_delete form{
+	background: initial;
+	margin: auto;
+	padding: 20px 50px;
+	border: 0;
+}
+
+.paginador ul{
+	padding: 15px;
+	list-style: none;
+	background: #FFF;
+	margin-top: 15px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.paginador a, .pageSelected{
+	color: #428bca;
+	border: 1px solid #ddd;
+	padding: 5px;
+	display: inline-block;
+	font-size: 14px;
+	text-align: center;
+	width: 35px;
+}
+
+.paginador a:hoover{
+	background: #ddd;
+}
+
+.pageSelected{
+	color: #FFF;
+	background: #428bca;;
+	border: 1px solid #428bca;;	
+}
+
+/*-----buscador----------------------*/
+
+.form_search{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	float: right;
+	background: initial;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.form_search .btn_search{
+	background: #1faac8;/*#1faac8*/
+	color: #fff;
+	padding: 0px 20px;
+	border: 0;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+
+
+
+/*============ Ventas ============*/
+.datos_cliente, .datos_venta, .title_page{
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+#detalle_venta tr{
+	background-color: #FFF !important;
+}
+#detalle_venta td{
+	border-bottom: 1px solid #CCC;
+}
+.datos{
+	background-color: #e3ecef;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 1px solid #78909C;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.datos .btn_save{
+	font-size: 12pt;
+    background: #12a4c6;
+    padding: 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+    margin: 15px auto;
+    cursor: pointer;
+    margin: 15 px auto;
+	display: none;
+}
+
+.action_cliente .btn_new_cliente{
+	font-size: 12pt;
+    background: #12a4c6;
+    padding: 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+    margin: 15px auto;
+    cursor: pointer;
+    margin: 15 px auto;
+}
+
+.btn_crear{
+	font-size: 12pt;
+    background: #12a4c6;
+    padding: 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+    margin: 15px auto;
+    cursor: pointer;
+    margin: 15 px auto;
+}
+
+.btn_anular{
+	font-size: 12pt;
+    background: #e71d1d;
+    padding: 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+    margin: 15px auto;
+    cursor: pointer;
+    margin: 15 px auto;
+	
+}
+
+.btn_procesar{
+	font-size: 12pt;
+    background: #3aad16;
+    padding: 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+    margin: 15px auto;
+    cursor: pointer;
+    margin: 15 px auto;
+	
+}
+
+.btn_limpiar{
+	font-size: 12pt;
+    background: #12a4c6;
+    padding: 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+    margin: 15px auto;
+    cursor: pointer;
+    margin: 15 px auto;
+	
+}
+
+
+
+
+
+
+
+
+.action_cliente{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+}
+
+.datos label{
+	margin: 5px auto;
+}
+.wd10{
+	width: 10%;
+}
+.wd20{
+	width: 20%;
+}
+.wd25{
+	width: 25%;
+}
+.wd30{
+	width: 30%;
+}
+.wd50{
+	width: 50%;
+}
+.wd100{
+	width: 100%;
+}
+
+
+/*check box*/
+
+.content-input{
+	position: relative;
+	margin-bottom: 30px;
+	padding:5px 0 5px 60px; /* Damos un padding de 60px para posicionar 
+        el elemento <i> en este espacio*/
+	display: block;
+}
+ 
+/* Estas reglas se aplicarán a todos las elementos i 
+después de cualquier input*/
+.content-input input + i{
+       background: #f0f0f0;
+       border:2px solid rgba(0,0,0,0.2);
+       position: absolute; 
+       left: 0;
+       top: 0;
+}
+ 
+/* Estas reglas se aplicarán a todos los i despues 
+de un input de tipo checkbox*/
+.content-input input[type=checkbox ] + i{
+	width: 52px;
+	height: 30px;
+	border-radius: 15px;
+}
+
+/*
+Creamos el círculo que aparece encima de los checkbox
+con la etqieta before. Importante aunque no haya contenido
+debemos poner definir este valor.
+*/
+.content-input input[type=checkbox] + i:before{
+	content: ''; /* No hay contenido */
+	width: 26px;
+	height: 26px;
+	background: #fff;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 1;
+	left: 0px;
+	top: 0px;
+	-webkit-box-shadow: 3px 0 3px 0 rgba(0,0,0,0.2);
+	box-shadow: 3px 0 3px 0 rgba(0,0,0,0.2);
+}
+
+.content-input input[type=checkbox]:checked + i:before{
+	left: 22px;
+	-webkit-box-shadow: -3px 0 3px 0 rgba(0,0,0,0.2);
+	box-shadow: 3px 0 -3px 0 rgba(0,0,0,0.2);
+}
+ 
+.content-input input[type=checkbox]:checked + i{
+ background: #f00808;
+}
+
+.content-input input[type=checkbox] + i:after{
+	content: 'Crédito';
+	position: absolute;
+	font-size: 10px;
+	color: rgba(255,255,255,0.6);
+	top: 8px;
+	left: 4px;
+	opacity: 0 /* Ocultamos este elemento */;
+	transition: all 0.25s ease 0.25s;
+}
+ 
+/* Cuando esté checkeado cambiamos la opacidad a 1 y lo mostramos */
+.content-input input[type=checkbox]:checked + i:after{
+ opacity: 1;
+}
+
+/*enlaces*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
